@@ -1,0 +1,28 @@
+server:
+  port: 9090
+  servlet:
+    context-path: /v1/chapter-one
+
+spring:
+  application:
+    name: chapter-one
+
+  profiles:
+    active: dev
+
+  threads:
+    virtual:
+      enabled: true
+
+  security:
+    user:
+      name: user
+      password: password
+      roles: admin
+
+
+logging:
+  level:
+    web: debug
+    java: debug
+    jakarta: debug
