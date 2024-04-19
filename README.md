@@ -18,9 +18,9 @@ Note: All examples work on port 9090, you can configure the port in the applicat
 
 Technologies
 
-  Java 21
-  Spring Boot
-  Spring JPA
-  Spring Security
+* Java 21
+* Spring Boot
+* Spring JPA
+* Spring Security
 
 Medium Link: https://medium.com/emlakjet/spring-security-5e47fe43b257
